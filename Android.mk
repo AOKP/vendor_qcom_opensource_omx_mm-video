@@ -3,6 +3,8 @@ include $(CLEAR_VARS)
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 
+ifneq ($(BOARD_BROKEN_QCOM_MEDIA),true)
+
 ifeq ($(TARGET_BOARD_PLATFORM),qsd8k)
     include $(OMX_VIDEO_PATH)/qdsp6/vdec/Android.mk
     include $(OMX_VIDEO_PATH)/qdsp6/venc/Android.mk
@@ -26,4 +28,5 @@ ifeq ($(TARGET_BOARD_PLATFORM),msm8960)
     include $(OMX_VIDEO_PATH)/DivxDrmDecrypt/Android.mk
 endif
 
+endif #BOARD_BROKEN_QCOM_MEDIA
 endif #BOARD_USES_QCOM_HARDWARE
