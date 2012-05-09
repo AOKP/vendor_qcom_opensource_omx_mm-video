@@ -1,0 +1,10 @@
+Change-Id: Iaf348d77f1e924f68fe34315246a3f60ecebd3ea
+Code-Review+2: Khas Mek <boushh@gmail.com>
+Verified+1: Khas Mek <boushh@gmail.com>
+Code-Review+1: Jacob Bell <fzservers@gmail.com>
+Verified+1: Jacob Bell <fzservers@gmail.com>
+Submitted-by: Khas Mek <boushh@gmail.com>
+Submitted-at: Wed, 09 May 2012 11:28:40 -0500
+Reviewed-on: http://gerrit.sudoservers.com/643
+Project: AOKP/android_vendor_qcom_opensource_omx_mm-video
+Branch: refs/heads/ics
